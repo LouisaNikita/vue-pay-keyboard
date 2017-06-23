@@ -1,0 +1,46 @@
+{
+    "name": "vue-paginator-simple",
+    "version": "1.0.4",
+    "description": "A simple paginator for vue.js.",
+    "main": "dist/vue-paginator-simple.js",
+    "scripts": {
+        "dev": "webpack-dev-server --config=webpack.example.config.js --hot --host=0.0.0.0 --port=8800",
+        "build": "webpack -p --config=webpack.config.js --progress"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LouisaNikita/vue-paginator-simple.git"
+    },
+    "keywords": [
+        "paginator",
+        "pagination",
+        "vue"
+    ],
+    "author": "louisanikita08@gmail.com",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-core": "^6.18.2",
+        "babel-loader": "^6.2.8",
+        "babel-plugin-transform-object-rest-spread": "^6.20.2",
+        "babel-polyfill": "^6.23.0",
+        "babel-preset-latest": "^6.16.0",
+        "css-loader": "^0.26.0",
+        "extract-text-webpack-plugin": "^2.0.0-beta.5",
+        "html-webpack-plugin": "^2.28.0",
+        "style-loader": "^0.13.1",
+        "vue": "^2.1.10",
+        "vue-html-loader": "^1.2.4",
+        "vue-loader": "^10.0.0",
+        "vue-template-compiler": "^2.1.10",
+        "webpack": "^2.2.0",
+        "webpack-dev-server": "^2.2.0"
+    },
+    "babel": {
+        "presets": [
+            "latest"
+        ],
+        "plugins": [
+            "transform-object-rest-spread"
+        ]
+    }
+}
